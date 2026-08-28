@@ -199,10 +199,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/convert_roi_to_mm.dir/DependInfo.cmake"
-  "CMakeFiles/dbscan_clusters.dir/DependInfo.cmake"
-  "CMakeFiles/extract_fork_entry.dir/DependInfo.cmake"
-  "CMakeFiles/extract_front_plane.dir/DependInfo.cmake"
-  "CMakeFiles/extract_template_front_plane.dir/DependInfo.cmake"
-  "CMakeFiles/icp_match.dir/DependInfo.cmake"
+  "CMakeFiles/1_roi_to_mm.dir/DependInfo.cmake"
+  "CMakeFiles/2_dbscan_clusters.dir/DependInfo.cmake"
+  "CMakeFiles/3_select_pallet_cluster.dir/DependInfo.cmake"
+  "CMakeFiles/4_roi_fork_entry.dir/DependInfo.cmake"
+  "CMakeFiles/5_template_fork_entry.dir/DependInfo.cmake"
+  "CMakeFiles/6_icp_match.dir/DependInfo.cmake"
   )

@@ -417,6 +417,8 @@ CMakeFiles/extract_template_front_plane.dir/extract_template_front_plane.cpp.o: 
   /usr/include/ctype.h \
   /usr/include/eigen3/Eigen/Cholesky \
   /usr/include/eigen3/Eigen/Core \
+  /usr/include/eigen3/Eigen/Dense \
+  /usr/include/eigen3/Eigen/Eigenvalues \
   /usr/include/eigen3/Eigen/Geometry \
   /usr/include/eigen3/Eigen/Householder \
   /usr/include/eigen3/Eigen/Jacobi \
@@ -542,6 +544,17 @@ CMakeFiles/extract_template_front_plane.dir/extract_template_front_plane.cpp.o: 
   /usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h \
   /usr/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h \
   /usr/include/eigen3/Eigen/src/Core/util/XprHelper.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
   /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
   /usr/include/eigen3/Eigen/src/Geometry/AngleAxis.h \
   /usr/include/eigen3/Eigen/src/Geometry/EulerAngles.h \
@@ -723,8 +736,6 @@ CMakeFiles/extract_template_front_plane.dir/extract_template_front_plane.cpp.o: 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
 
@@ -930,6 +941,22 @@ CMakeFiles/extract_template_front_plane.dir/extract_template_front_plane.cpp.o: 
 
 /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h:
 
+/usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:
+
 /usr/include/c++/11/bits/istream.tcc:
 
 /usr/include/eigen3/Eigen/src/Core/Diagonal.h:
@@ -1094,6 +1121,12 @@ CMakeFiles/extract_template_front_plane.dir/extract_template_front_plane.cpp.o: 
 
 /usr/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h:
 
+/usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h:
+
+/usr/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h:
+
+/home/atchayasree/Downloads/open3d-devel-linux-x86_64-cxx11-abi-0.19.0/include/open3d/visualization/gui/Menu.h:
+
 /home/atchayasree/Downloads/open3d-devel-linux-x86_64-cxx11-abi-0.19.0/include/open3d/visualization/gui/Button.h:
 
 /home/atchayasree/Downloads/open3d-devel-linux-x86_64-cxx11-abi-0.19.0/include/open3d/t/io/sensor/RGBDVideoMetadata.h:
@@ -1105,6 +1138,8 @@ CMakeFiles/extract_template_front_plane.dir/extract_template_front_plane.cpp.o: 
 /home/atchayasree/Downloads/open3d-devel-linux-x86_64-cxx11-abi-0.19.0/include/open3d/utility/Random.h:
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h:
 
 /home/atchayasree/Downloads/open3d-devel-linux-x86_64-cxx11-abi-0.19.0/include/open3d/utility/Parallel.h:
 
@@ -1123,6 +1158,8 @@ CMakeFiles/extract_template_front_plane.dir/extract_template_front_plane.cpp.o: 
 /home/atchayasree/Downloads/open3d-devel-linux-x86_64-cxx11-abi-0.19.0/include/open3d/geometry/RGBDImage.h:
 
 /home/atchayasree/Downloads/open3d-devel-linux-x86_64-cxx11-abi-0.19.0/include/open3d/utility/IJsonConvertible.h:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h:
 
 /home/atchayasree/Downloads/open3d-devel-linux-x86_64-cxx11-abi-0.19.0/include/open3d/visualization/rendering/MaterialModifier.h:
 
@@ -1388,6 +1425,8 @@ CMakeFiles/extract_template_front_plane.dir/extract_template_front_plane.cpp.o: 
 
 /home/atchayasree/Downloads/open3d-devel-linux-x86_64-cxx11-abi-0.19.0/include/open3d/visualization/shader/TextureSimpleShader.h:
 
+/usr/include/eigen3/Eigen/Dense:
+
 /usr/include/c++/11/debug/assertions.h:
 
 /home/atchayasree/Downloads/open3d-devel-linux-x86_64-cxx11-abi-0.19.0/include/open3d/io/LineSetIO.h:
@@ -1598,17 +1637,13 @@ CMakeFiles/extract_template_front_plane.dir/extract_template_front_plane.cpp.o: 
 
 /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h:
 
+/usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h:
+
 /usr/include/c++/11/bits/fstream.tcc:
 
 /home/atchayasree/Downloads/open3d-devel-linux-x86_64-cxx11-abi-0.19.0/include/open3d/visualization/visualizer/RenderOption.h:
 
 /usr/include/eigen3/Eigen/src/Core/SolverBase.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h:
-
-/home/atchayasree/Downloads/open3d-devel-linux-x86_64-cxx11-abi-0.19.0/include/open3d/visualization/gui/Menu.h:
-
-/usr/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h:
 
 /usr/include/eigen3/Eigen/src/Geometry/Scaling.h:
 
@@ -1806,8 +1841,6 @@ CMakeFiles/extract_template_front_plane.dir/extract_template_front_plane.cpp.o: 
 
 /usr/include/c++/11/iomanip:
 
-/usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:
-
 /usr/include/c++/11/cerrno:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
@@ -1896,6 +1929,8 @@ CMakeFiles/extract_template_front_plane.dir/extract_template_front_plane.cpp.o: 
 
 /usr/include/eigen3/Eigen/src/LU/arch/InverseSize4.h:
 
+/usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h:
+
 /usr/include/c++/11/pstl/glue_numeric_defs.h:
 
 /usr/include/c++/11/pstl/pstl_config.h:
@@ -1975,6 +2010,8 @@ CMakeFiles/extract_template_front_plane.dir/extract_template_front_plane.cpp.o: 
 /usr/include/c++/11/vector:
 
 /usr/include/c++/11/version:
+
+/usr/include/eigen3/Eigen/Eigenvalues:
 
 /usr/include/eigen3/Eigen/Jacobi:
 
@@ -2111,6 +2148,8 @@ CMakeFiles/extract_template_front_plane.dir/extract_template_front_plane.cpp.o: 
 /usr/include/eigen3/Eigen/src/LU/InverseImpl.h:
 
 /usr/include/eigen3/Eigen/src/Core/products/Parallelizer.h:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h:
 
 /home/atchayasree/Downloads/open3d-devel-linux-x86_64-cxx11-abi-0.19.0/include/open3d/visualization/shader/SimpleShader.h:
 
