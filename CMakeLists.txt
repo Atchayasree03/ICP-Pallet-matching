@@ -106,5 +106,23 @@ target_link_libraries(
     Open3D::Open3D
 )
 
+add_executable(pallet_detection pallet_detection.cpp)
+
+target_link_libraries(
+    pallet_detection
+    PRIVATE
+    Open3D::Open3D
+)
+
+add_executable(multipallet_detection
+    multipallet_detection.cpp
+)
+
+target_link_libraries(
+    multipallet_detection
+    PRIVATE
+    Open3D::Open3D
+)
+
 
 
